@@ -21,6 +21,11 @@ correctly positioned on target destinations while considering constraints such a
 and obstacle avoidance. Through this approach, the solver can navigate the puzzle's state space to
 find optimal solutions with minimal moves needed to achieve the objective.
 
+## How to Use
+
+In order to execute the AI solver use the following command:
+./sokoban -s <map> play_solution
+
 ## Puzzle File Format
 
 #: Wall<br/>
