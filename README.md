@@ -1,5 +1,5 @@
 # Sokoban_Solver
-AI solver for Sokoban puzzles, implemented in C
+Machine learning solver for Sokoban puzzles, implemented in C
 
 ## What is Sokoban?
 
