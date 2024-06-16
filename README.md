@@ -23,7 +23,7 @@ find optimal solutions with minimal moves needed to achieve the objective.
 
 ## How to Use
 
-In order to execute the AI solver use the following command:<br/>
+In order to execute the AI solver compile and use the following command:<br/>
 ./sokoban -s <map> play_solution
 Example: ./sokoban -s test_maps/test_map1 play_solution
 
