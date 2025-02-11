@@ -8,8 +8,9 @@ is to push crates or boxes to designated storage locations within a maze-like en
 The challenge lies in maneuvering the crates around obstacles and arranging them in the correct 
 positions, all while avoiding getting trapped or creating unsolvable situations.
 
-## [Visualisation](https://henrykautz.com/sokoban/Sokoban.html)
+## Visualisation
 
+A helpful [Sokoban visualization](https://henrykautz.com/sokoban/Sokoban.html) is available online.
 
 ## Implementation
 
@@ -25,8 +26,14 @@ find optimal solutions with minimal moves needed to achieve the objective.
 
 To execute the AI solver, compile and use the following command:
 
-```bash./sokoban -s play_solution```<br/>
-<br/>Eg.<br/>
+```./sokoban -s [map_file] play_solution```
+
+- -s: Specifies the solution mode.
+- play_solution: Indicates that you want to play the automatically generated solution.
+- [map_file]: The path to the Sokoban map file.
+
+Eg.
+
 ```./sokoban -s test_maps/test_map1 play_solution```
 
 ## Puzzle File Format
